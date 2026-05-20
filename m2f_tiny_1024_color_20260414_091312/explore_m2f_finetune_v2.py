@@ -1,3 +1,5 @@
+#Disclaimer: This script was partially AI-generated.
+
 import os
 import sys
 import json
