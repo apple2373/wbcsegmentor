@@ -1,0 +1,77 @@
+--- Experiment: m2f_tiny_1024_color ---
+Arguments: {
+    "data_path": "/home/satoshi.tsutsui/projects/wbcas/dataset_txt/pbc_attr_v1_ccrop_all.csv",
+    "data_root": "/home/satoshi.tsutsui/satoshissd/PBC/pbcseg_final_v1/",
+    "model_name": "facebook/mask2former-swin-tiny-ade-semantic",
+    "resolution": 1024,
+    "out_resolution": 360,
+    "num_classes": 6,
+    "ignore_index": 0,
+    "no_flip": false,
+    "use_crop": false,
+    "use_color": true,
+    "freeze_encoder": false,
+    "freeze_decoder": false,
+    "lr": 3e-05,
+    "weight_decay": 0.01,
+    "epochs": 50,
+    "batch_size": 16,
+    "num_workers": 1,
+    "pflip": 0.5,
+    "grad_clip": 1.0,
+    "seed": 42,
+    "label_smoothing": 0.1,
+    "device": "cuda",
+    "save_dir": "./experiments",
+    "exp_name": "m2f_tiny_1024"
+}
+Epoch 001 | Train Loss: 0.4798 | Val Loss: 0.4378 | Val mIoU: 0.8971 | Test mIoU: 0.9000
+Epoch 002 | Train Loss: 0.4374 | Val Loss: 0.4356 | Val mIoU: 0.9088 | Test mIoU: 0.9121
+Epoch 003 | Train Loss: 0.4356 | Val Loss: 0.4344 | Val mIoU: 0.9175 | Test mIoU: 0.9201
+Epoch 004 | Train Loss: 0.4348 | Val Loss: 0.4342 | Val mIoU: 0.9199 | Test mIoU: 0.9216
+Epoch 005 | Train Loss: 0.4342 | Val Loss: 0.4338 | Val mIoU: 0.9184 | Test mIoU: 0.9247
+Epoch 006 | Train Loss: 0.4339 | Val Loss: 0.4336 | Val mIoU: 0.9204 | Test mIoU: 0.9260
+Epoch 007 | Train Loss: 0.4337 | Val Loss: 0.4338 | Val mIoU: 0.9193 | Test mIoU: 0.9224
+Epoch 008 | Train Loss: 0.4335 | Val Loss: 0.4336 | Val mIoU: 0.9273 | Test mIoU: 0.9301
+Epoch 009 | Train Loss: 0.4332 | Val Loss: 0.4335 | Val mIoU: 0.9222 | Test mIoU: 0.9295
+Epoch 010 | Train Loss: 0.4332 | Val Loss: 0.4329 | Val mIoU: 0.9312 | Test mIoU: 0.9312
+Epoch 011 | Train Loss: 0.4328 | Val Loss: 0.4328 | Val mIoU: 0.9318 | Test mIoU: 0.9320
+Epoch 012 | Train Loss: 0.4329 | Val Loss: 0.4327 | Val mIoU: 0.9282 | Test mIoU: 0.9309
+Epoch 013 | Train Loss: 0.4325 | Val Loss: 0.4328 | Val mIoU: 0.9276 | Test mIoU: 0.9299
+Epoch 014 | Train Loss: 0.4324 | Val Loss: 0.4327 | Val mIoU: 0.9300 | Test mIoU: 0.9334
+Epoch 015 | Train Loss: 0.4326 | Val Loss: 0.4329 | Val mIoU: 0.9306 | Test mIoU: 0.9332
+Epoch 016 | Train Loss: 0.4323 | Val Loss: 0.4326 | Val mIoU: 0.9289 | Test mIoU: 0.9303
+Epoch 017 | Train Loss: 0.4321 | Val Loss: 0.4324 | Val mIoU: 0.9300 | Test mIoU: 0.9297
+Epoch 018 | Train Loss: 0.4321 | Val Loss: 0.4326 | Val mIoU: 0.9331 | Test mIoU: 0.9330
+Epoch 019 | Train Loss: 0.4321 | Val Loss: 0.4325 | Val mIoU: 0.9343 | Test mIoU: 0.9358
+Epoch 020 | Train Loss: 0.4318 | Val Loss: 0.4324 | Val mIoU: 0.9350 | Test mIoU: 0.9352
+Epoch 021 | Train Loss: 0.4318 | Val Loss: 0.4322 | Val mIoU: 0.9347 | Test mIoU: 0.9345
+Epoch 022 | Train Loss: 0.4317 | Val Loss: 0.4322 | Val mIoU: 0.9357 | Test mIoU: 0.9357
+Epoch 023 | Train Loss: 0.4317 | Val Loss: 0.4323 | Val mIoU: 0.9331 | Test mIoU: 0.9339
+Epoch 024 | Train Loss: 0.4316 | Val Loss: 0.4322 | Val mIoU: 0.9355 | Test mIoU: 0.9354
+Epoch 025 | Train Loss: 0.4315 | Val Loss: 0.4323 | Val mIoU: 0.9344 | Test mIoU: 0.9364
+Epoch 026 | Train Loss: 0.4314 | Val Loss: 0.4322 | Val mIoU: 0.9352 | Test mIoU: 0.9353
+Epoch 027 | Train Loss: 0.4313 | Val Loss: 0.4321 | Val mIoU: 0.9375 | Test mIoU: 0.9359
+Epoch 028 | Train Loss: 0.4313 | Val Loss: 0.4321 | Val mIoU: 0.9373 | Test mIoU: 0.9370
+Epoch 029 | Train Loss: 0.4312 | Val Loss: 0.4321 | Val mIoU: 0.9366 | Test mIoU: 0.9359
+Epoch 030 | Train Loss: 0.4312 | Val Loss: 0.4321 | Val mIoU: 0.9379 | Test mIoU: 0.9368
+Epoch 031 | Train Loss: 0.4311 | Val Loss: 0.4321 | Val mIoU: 0.9376 | Test mIoU: 0.9378
+Epoch 032 | Train Loss: 0.4311 | Val Loss: 0.4319 | Val mIoU: 0.9392 | Test mIoU: 0.9373
+Epoch 033 | Train Loss: 0.4310 | Val Loss: 0.4321 | Val mIoU: 0.9378 | Test mIoU: 0.9362
+Epoch 034 | Train Loss: 0.4310 | Val Loss: 0.4321 | Val mIoU: 0.9384 | Test mIoU: 0.9353
+Epoch 035 | Train Loss: 0.4309 | Val Loss: 0.4320 | Val mIoU: 0.9386 | Test mIoU: 0.9368
+Epoch 036 | Train Loss: 0.4309 | Val Loss: 0.4320 | Val mIoU: 0.9377 | Test mIoU: 0.9369
+Epoch 037 | Train Loss: 0.4308 | Val Loss: 0.4320 | Val mIoU: 0.9372 | Test mIoU: 0.9372
+Epoch 038 | Train Loss: 0.4308 | Val Loss: 0.4320 | Val mIoU: 0.9383 | Test mIoU: 0.9365
+Epoch 039 | Train Loss: 0.4308 | Val Loss: 0.4319 | Val mIoU: 0.9386 | Test mIoU: 0.9369
+Epoch 040 | Train Loss: 0.4307 | Val Loss: 0.4319 | Val mIoU: 0.9379 | Test mIoU: 0.9368
+Epoch 041 | Train Loss: 0.4307 | Val Loss: 0.4319 | Val mIoU: 0.9377 | Test mIoU: 0.9365
+Epoch 042 | Train Loss: 0.4307 | Val Loss: 0.4319 | Val mIoU: 0.9378 | Test mIoU: 0.9367
+Epoch 043 | Train Loss: 0.4307 | Val Loss: 0.4319 | Val mIoU: 0.9380 | Test mIoU: 0.9368
+Epoch 044 | Train Loss: 0.4307 | Val Loss: 0.4319 | Val mIoU: 0.9385 | Test mIoU: 0.9369
+Epoch 045 | Train Loss: 0.4306 | Val Loss: 0.4319 | Val mIoU: 0.9383 | Test mIoU: 0.9369
+Epoch 046 | Train Loss: 0.4306 | Val Loss: 0.4319 | Val mIoU: 0.9385 | Test mIoU: 0.9365
+Epoch 047 | Train Loss: 0.4306 | Val Loss: 0.4319 | Val mIoU: 0.9385 | Test mIoU: 0.9367
+Epoch 048 | Train Loss: 0.4306 | Val Loss: 0.4319 | Val mIoU: 0.9386 | Test mIoU: 0.9369
+Epoch 049 | Train Loss: 0.4306 | Val Loss: 0.4319 | Val mIoU: 0.9383 | Test mIoU: 0.9368
+Epoch 050 | Train Loss: 0.4306 | Val Loss: 0.4319 | Val mIoU: 0.9385 | Test mIoU: 0.9367
