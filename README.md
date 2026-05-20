@@ -1,12 +1,10 @@
-
 # WBC Semantic Segmentation Model
 
 * A Mask2Former model is trained on the training split of the WBCAtt+ dataset
 * Training code is at [./m2f_tiny_1024_color_20260414_091312](./m2f_tiny_1024_color_20260414_091312).
 * The model weight is uploaded to [HuggingFace](https://huggingface.co/apple2373/wbcsegmentor_m2f_tiny/blob/main/model_epoch%3D050.ckpt)
 * Put `model_epoch=050.ckpt` in the directory [./m2f_tiny_1024_color_20260414_091312](./m2f_tiny_1024_color_20260414_091312).
-- See [./results_sample_in_the_wild.ipynb](./results_sample_in_the_wild.ipynb) to learn how to use. 
-
+* See [./results_sample_in_the_wild.ipynb](./results_sample_in_the_wild.ipynb) to learn how to use. 
 
 ## Environment
 - The commands used to make the environment:
