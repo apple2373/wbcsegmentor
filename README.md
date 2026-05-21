@@ -22,7 +22,7 @@ uv pip install matplotlib pandas tqdm pillow scikit-learn seaborn numpy scipy op
 - See [environment.yml](environment.yml). 
 
 
-## Evaluation on PBC dataset
+## Evaluation on WBCAtt+ dataset
 - See [./results_pbc_eval.ipynb](./results_pbc_eval.ipynb) for more details and more examples.
 
 | Class Index | Class Name          |   IoU (%) |
@@ -42,7 +42,7 @@ Mean IoU (mIoU)  without Background class:  93.67
 ![image](asset/pbc4.jpg)
 ![image](asset/pbc6.jpg)
 
-## Samples Results in the Wild
+## Sample Results in the Wild
 - See [./results_sample_in_the_wild.ipynb](./results_sample_in_the_wild.ipynb). 
 ![image](asset/35806dfb-63f1-4b3d-9a2a-747bc8d9aeb4.jpg)
 ![image](asset/45628275-a63d-4a18-ace0-391a3a7eeae1.jpg)
@@ -55,7 +55,7 @@ Mean IoU (mIoU)  without Background class:  93.67
 
 ## Reference*
 
-*The model trained in this repository is not used in the paper. The Mask2Former here is trained using Transformers library, while the one reported in the paper is based on Mask2Former's official codebase.
+*The model trained in this repository is not used in the paper. The Mask2Former here is trained using Transformers library, while the [one reported in the paper](https://github.com/apple2373/wbcattplus/tree/main/Mask2Former) is based on Mask2Former's official codebase.
 
 If you find this code or pretrained model useful, please consider citing:
 
