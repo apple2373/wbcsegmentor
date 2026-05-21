@@ -31,7 +31,7 @@ uv pip install matplotlib pandas tqdm pillow scikit-learn seaborn numpy scipy op
 | 1           | Cytoplasm           |     96.67 |
 | 2           | Nucleus             |     98.14 |
 | 3           | Platelets           |     92.91 |
-| 4           | RWBC                |     99.43 |
+| 4           | RedBloodCell                |     99.43 |
 | 5           | Vacuoles            |     81.20 |
 
 Mean IoU (mIoU)  without Background class:  93.67 
